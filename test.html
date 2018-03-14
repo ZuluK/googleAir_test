@@ -1,0 +1,66 @@
+<html>
+
+<head>
+
+    <body>
+        <!-- main container -->
+        <table bgcolor="#f5f5f5" width="480" align="center" border="0">
+            <tr>
+                <td>
+                    <!-- email body -->
+                    <table width="480" border="0">
+                        <tr>
+                            <td class="tdStyle">
+                                <img src="http://services.google.com/fh/files/emails/googleair_logo_123x32.png" alt="{{ logo_alt }}" class="logo">
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- body content -->
+                    <table bgcolor="#ffffff" align="center" class="table-body">
+                        <tr>
+                            <td class="header" align="center">
+                                {{ header }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="body">
+                                {{ body1 }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ body2 }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" class="cta-button">
+                                <a href="https://www.google.com/#q=air"><img src="http://services.google.com/fh/files/emails/googleair_button_148x30.png" alt="Learn More"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ sign_off }}
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- footer -->
+                    <table>
+                        <tr>
+                            <td class="footer-1">
+                                {{ footer_address }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="footer-2">
+                                {{ footer_legal }}
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </body>
+</head>
+
+</html>
